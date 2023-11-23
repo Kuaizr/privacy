@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.css518.AppTest" time="0.026" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\workspace\Code\隐私保护\privacy\target\test-classes;E:\workspace\Code\隐私保护\privacy\target\classes;C:\Users\15973\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\15973\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\15973\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\15973\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\15973\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\15973\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\15973\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\15973\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\15973\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\15973\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\15973\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\15973\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\15973\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\envs\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\15973\AppData\Local\Temp\surefire44142373171208244\surefirebooter7805213087279787284.jar C:\Users\15973\AppData\Local\Temp\surefire44142373171208244 2023-11-22T15-44-15_861-jvmRun1 surefire1720391909227362945tmp surefire_04951760005729414025tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\workspace\Code\隐私保护\privacy\target\test-classes;E:\workspace\Code\隐私保护\privacy\target\classes;C:\Users\15973\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\15973\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\15973\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\15973\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\15973\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\15973\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\15973\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\15973\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\15973\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\15973\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\15973\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\15973\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\15973\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\15973"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="E:\Program Files\envs\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\workspace\Code\隐私保护\privacy"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\15973\AppData\Local\Temp\surefire44142373171208244\surefirebooter7805213087279787284.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="15973"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\15973\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\15973\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="E:\workspace\Code\隐私保护\privacy"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\Program Files\envs\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\15973\anaconda3\condabin;C:\Users\15973\Documents\WindowsPowerShell\Modules\oh-my-posh;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\enviroment\nvm;C:\enviroment\nodejs;C:\Program Files\Git\cmd;C:\enviroment\nodejs;E:\Program Files\envs\jdk-11.0.13\bin;E:\Program Files\envs\jdk-11.0.13\jre\bin;E:\Program Files\Graphviz\bin;C:\Users\15973\anaconda3\Scripts\conda.exe;C:\Users\15973\anaconda3\Scripts;C:\Users\15973\anaconda3\Library\bin;C:\Program Files\ffmpeg\bin;E:\Program Files\MATLAB\R2016a\runtime\win64;E:\Program Files\MATLAB\R2016a\bin;E:\Program Files\MATLAB\R2016a\polyspace\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\15973\AppData\Local\Android\Sdk\platform-tools;C:\Users\15973\AppData\Local\Android\Sdk\emulator;C:\Users\15973\AppData\Local\Android\Sdk\tools;C:\Users\15973\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64;C:\Program Files\dotnet\;C:\Program Files\Git LFS;C:\Program Files\Docker\Docker\resources\bin;E:\Program Files\envs\apache-maven-3.9.5\bin;C:\Users\15973\AppData\Local\Microsoft\WindowsApps;C:\Users\15973\AppData\Local\Programs\Microsoft VS Code\bin;C:\enviroment\nvm;C:\enviroment\nodejs;C:\Users\15973\apps\gsudo;C:\Users\15973\AppData\Local\Microsoft\WindowsApps;C:\Users\15973\.dotnet\tools;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.css518.AppTest" time="0.001"/>
+</testsuite>
