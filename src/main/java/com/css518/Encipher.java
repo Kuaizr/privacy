@@ -1,6 +1,8 @@
 package com.css518;
 
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 import org.json.simple.JSONObject;
@@ -29,6 +31,40 @@ public class Encipher {
             }
         } catch (Exception e) {
             throw new RuntimeException("Failed to load configuration", e);
+        }
+    }
+
+    public void setEncryptorMap(String sensitiveWord, String encryptorClassName) {
+        try {
+            // 检查是否需要更新encryptorMap
+            if (encryptorMap.containsKey(sensitiveWord) && 
+                !encryptorMap.get(sensitiveWord).getName().equals(encryptorClassName)) {
+                // 反射查找并加载新类
+                Class<? extends Encryptor> encryptorClass = Class.forName(encryptorClassName).asSubclass(Encryptor.class);
+                encryptorMap.put(sensitiveWord, encryptorClass);
+                // 保存配置到文件中
+                saveConfig();
+            }
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("Encryption class " + encryptorClassName + " not found", e);
+        }
+    }
+
+    public void saveConfig() {
+        JSONObject config = new JSONObject();
+        JSONObject sensitiveConfig = new JSONObject();
+
+        // 构造新的配置
+        for (Map.Entry<String, Class<? extends Encryptor>> entry : encryptorMap.entrySet()) {
+            sensitiveConfig.put(entry.getKey(), entry.getValue().getName());
+        }
+        config.put("sensitiveWords", sensitiveConfig);
+
+        try (FileWriter file = new FileWriter("src/main/resources/config.json")) {
+            file.write(config.toJSONString());
+            file.flush();
+        } catch (IOException e) {
+            throw new RuntimeException("Error while writing configuration to file", e);
         }
     }
 
