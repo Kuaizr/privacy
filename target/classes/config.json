@@ -1,6 +1,6 @@
 {
     "sensitiveWords": {
-        "身份证": "com.css518.Encryptor.IdentityCardEncryptor",
-        "姓名": "com.css518.Encryptor.NameEncryptor"
+        "身份证": "com.css518.Encryptor.DataAnonymizer",
+        "姓名": "com.css518.Encryptor.SymmetricKeyEncryptor"
     }
 }
