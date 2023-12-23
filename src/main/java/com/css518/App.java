@@ -28,6 +28,4 @@ public class App {
 // public static void main(String[] args) {
 //         Encipher encipher = new Encipher();
 //         new Thread(() -> encipher.startWatchingConfig()).start();
-        
-//         // Optionally, add your code here to use the Encipher instance for other tasks
 //     }
